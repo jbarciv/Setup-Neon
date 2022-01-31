@@ -1,4 +1,4 @@
-# Setting Up Kde-Neon
+# Setup-Neon
 
 ## Description
 Changing your linux distro, in most of the cases, is painful and also tiresome, but sometimes it is just necessary. In these situations we are forced to make the effort of remembering all the applications we had installed and try to reinstall them, what in the practice means surfing on internet for hours. But what if we can solve this problem and save all this time just with one konsole input?
