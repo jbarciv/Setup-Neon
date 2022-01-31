@@ -26,6 +26,6 @@ Change your directory to the one where you have clone the repository.
 ## Usage
 Run this for execute the script, all the installations will start.
 ```
-$ shell Setup-Neon.sh
+$ bash Setup-Neon.sh
 ```
 
