@@ -1,16 +1,18 @@
---> Kate
+# Applications installed and its commands 
+## Installation instructions by programms
+### Kate
 
 sudo apt-get update
 sudo apt-get install kate
 
---> Google Chrome
+### Google Chrome
 
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt-get update
 sudo apt-get install libappindicator1
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
---> VSCode
+### VSCode
 
 sudo apt update
 sudo apt install software-properties-common apt-transport-https wget
