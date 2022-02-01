@@ -21,6 +21,11 @@ wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt install code
 ```
+### Assign Meta key to Dashboard
+```
+sudo apt install xcape
+xcape -e 'Super_L=Super_L|A'
+```
 
 ## Installation instructions (all together)
 
