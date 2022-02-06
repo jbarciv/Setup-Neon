@@ -27,22 +27,20 @@ sudo apt install xcape
 xcape -e 'Super_L=Super_L|A'
 ```
 
-### WPS Office Multi-Languague
-Open the snap store app and search wps. Install `WPS Office Multi-Language`.
+### WPS Office 2019 Multi-Languague
+Open the snap store app and search wps. Install `WPS Office 2019 Multi-Language`.
 Or type this on your terminal:
 ```
-sudo snap install wps-office-multilang
+sudo snap install wps-2019-snap
 sudo snap connect wps-office-multilang:removable-media
 ```
-
-If you want to make the cells of WPS spreadsheets white by default by modifying the `.desktop` file changing the `Exec` line to: 
-
+Post installation configuration:
 ```
-Exec=env GTK2_RC_FILES=/usr/share/themes/Adwaita/gtk-2.0/gtkrc BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop
-/applications/wps-office-multilang_et.desktop /snap/bin/wps-office-multilang.et -style gtk+ %U
+sudo snap connect wps-2019-snap:cups-control :cups-control
+sudo snap connect wps-2019-snap:alsa :alsa
+sudo snap connect wps-2019-snap:pulseaudio :pulseaudio
+sudo snap connect wps-2019-snap:removable-media :removable-media
 ```
-
-The `.desktop` file is usually in `/var/lib/snapd/desktop/applications/` when installing from snap store.
 
 ## Installation instructions (all together)
 
