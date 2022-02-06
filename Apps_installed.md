@@ -21,7 +21,18 @@ wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt install code
 ```
-### Assign Meta key to Dashboard
+### Assign Meta key to Dashboard (Windows key for app menu)
+Here we present three options:
+1) Make sure that the following lines are included in the `kwinrc` text file in the `~/.config` directory:
+```
+[ModifierOnlyShortcuts]
+Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
+```
+Then, map the applet activation key to `Meta + F1` or `Alt + F1`.
+
+2) If this method does not work, check out [this](https://askubuntu.com/a/246953/1166016) StackOverflow answer.
+
+3) Finally, you can assign *meta*+*A* as a shortcut for Application Dashboard and then assign the *meta* key to that shortcut (typing the next lines on terminal). 
 ```
 sudo apt install xcape
 xcape -e 'Super_L=Super_L|A'
