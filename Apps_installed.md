@@ -32,11 +32,12 @@ Then, map the applet activation key to `Meta + F1` or `Alt + F1`.
 
 2) If this method does not work, check out [this](https://askubuntu.com/a/246953/1166016) StackOverflow answer.
 
-3) Finally, you can assign *meta*+*A* as a shortcut for Application Dashboard and then assign the *meta* key to that shortcut (typing the next lines on terminal). 
+3) Also, you can assign *meta*+*A* as a shortcut for Application Dashboard and then assign the *meta* key to that shortcut (typing the next lines on terminal). 
 ```
 sudo apt install xcape
 xcape -e 'Super_L=Super_L|A'
 ```
+4) Finally, for Latte-Dock users, there is an option (right click on the Dock) in *Configure Latte..*. Check the box: *Press Meta to activate Application Launcher*.
 
 ### WPS Office 2019 Multi-Languague
 Open the snap store app and search wps. Install `WPS Office 2019 Multi-Language`.
