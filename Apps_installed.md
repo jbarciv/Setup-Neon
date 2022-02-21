@@ -52,6 +52,12 @@ sudo snap connect wps-2019-snap:pulseaudio :pulseaudio
 sudo snap connect wps-2019-snap:removable-media :removable-media
 ```
 
+### Inkscape
+```
+sudo apt-get update -y
+sudo apt-get install inkscape
+```
+
 ## Installation instructions (all together)
 
 ```
@@ -78,4 +84,7 @@ sudo snap connect wps-2019-snap:cups-control :cups-control
 sudo snap connect wps-2019-snap:alsa :alsa
 sudo snap connect wps-2019-snap:pulseaudio :pulseaudio
 sudo snap connect wps-2019-snap:removable-media :removable-media
+
+echo Installing Inkscape
+sudo apt-get install inkscape
 ```
