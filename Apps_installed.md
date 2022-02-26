@@ -59,6 +59,13 @@ sudo apt-get update -y
 sudo apt-get install inkscape
 ```
 
+### indicator-stickynotes
+See [this](https://launchpad.net/~umang/+archive/ubuntu/indicator-stickynotes) for more information.
+```
+sudo apt-add-repository ppa:umang/indicator-stickynotes
+sudo apt-get update && sudo apt-get install indicator-stickynotes
+```
+
 ## Installation instructions (all together)
 
 ```
@@ -88,4 +95,8 @@ sudo snap connect wps-2019-snap:removable-media :removable-media
 
 echo Installing Inkscape
 sudo apt-get install inkscape
+
+echo Installing Sticky Notes
+sudo apt-add-repository ppa:umang/indicator-stickynotes
+sudo apt-get update && sudo apt-get install indicator-stickynotes
 ```
