@@ -73,6 +73,13 @@ sudo apt-get install texlive
 sudo apt install kile
 ```
 
+### PDF-Shuffler
+```
+sudo add-apt-repository ppa:pdfshuffler/ppa
+sudo apt-get update
+sudo apt-get install pdfshuffler
+```
+
 ## Installation instructions (all together)
 
 ```
@@ -110,6 +117,11 @@ sudo apt-get update && sudo apt-get install indicator-stickynotes
 echo Installing Latex and Kile
 sudo apt-get install texlive
 sudo apt install kile
+
+echo Installing PDF-Shuffler
+sudo add-apt-repository ppa:pdfshuffler/ppa
+sudo apt-get update
+sudo apt-get install pdfshuffler
 ```
 
 ## Other tricks
