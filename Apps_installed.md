@@ -115,7 +115,7 @@ sudo apt-get install texmaker
 ## Other tricks
 ### Desktop file and Icons
 Example of desktop file:
-------------------------
+%------------------------
 [Desktop Entry]
 Encoding=UTF-8
 Version=1.0
@@ -124,7 +124,7 @@ Terminal=false
 Exec=/usr/bin/ipe
 Name=Ipe
 Icon=/usr/share/ipe/7.2.23/icons/icon_128x128.png
--------------------------
+%-------------------------
 
 application drawer is: 
 /usr/share/applications 
