@@ -66,11 +66,11 @@ sudo apt-add-repository ppa:umang/indicator-stickynotes
 sudo apt-get update && sudo apt-get install indicator-stickynotes
 ```
 
-### Latex and Texmaker
+### Latex and Kile
 See [this](https://linuxconfig.org/how-to-install-latex-on-ubuntu-20-04-focal-fossa-linux) fore other installation options.
 ```
 sudo apt-get install texlive
-sudo apt-get install texmaker
+sudo apt install kile
 ```
 
 ## Installation instructions (all together)
@@ -107,9 +107,9 @@ echo Installing Sticky Notes
 sudo apt-add-repository ppa:umang/indicator-stickynotes
 sudo apt-get update && sudo apt-get install indicator-stickynotes
 
-echo Installing Latex and Texmaker
+echo Installing Latex and Kile
 sudo apt-get install texlive
-sudo apt-get install texmaker
+sudo apt install kile
 ```
 
 ## Other tricks
