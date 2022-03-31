@@ -7,12 +7,18 @@ sudo apt-get update
 sudo apt-get install kate
 ```
 ### Google Chrome
+For Kde Neon it is recommended this:
 ```
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt-get update
 sudo apt-get install libappindicator1
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
+For Ubuntu 20.04 olmost the same:
+```
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+``
 ### VSCode
 ```
 sudo apt update
