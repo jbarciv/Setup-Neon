@@ -87,6 +87,12 @@ sudo apt-get update
 sudo apt-get install pdfshuffler
 ```
 
+### Flameshot
+```
+sudo apt-get install flameshot
+```
+For running from terminal: `flameshot gui -p /home/your/desired/directory`. I highly recommend you creating a shortcut with this.
+
 ## Installation instructions (all together)
 
 ```
